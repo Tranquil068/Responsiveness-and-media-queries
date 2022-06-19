@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 button{
     padding: 10px;
@@ -8,14 +9,91 @@ button{
     border-color: #da52af;
 }
 #one{
-    border-color: white;
-    border-color: white;
+    border: transparent;
     float: right;
-}
-.head{
-    display: flex;
-    padding-top: 20px;
+    color:#00252e;
+    background-color: white;
 }
 #left{
-    float: left;
+    display: flex;
+    gap:1000px;
+    padding-bottom: 100px;
+}
+.head{
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: #e5f8ff;
+}
+.intro{
+    display: flex;
+    gap:300px;
+    padding-bottom: 50px;
+}
+.grow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-top: 100px;
+}
+.flowing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.body{
+    background-color: white;
+    color: #00252e;
+}
+#logo{
+    padding-top: 70px;
+}
+.foot{
+    background-color: #00252e;
+    color: white;
+    display: flex;
+}
+.location{
+    display:flex;
+}
+.phone{
+    display:flex;
+}
+.mail{
+    display:flex;
+}
+#logo{
+    fill: white;
+}
+.info{
+    padding-top: 112px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+.more{
+    padding-top: 112px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+.copyright{
+    display:flex;
+}
+.media{
+    display: flex;
+    gap: 10px;
+}
+.details{
+    padding-left: 70px;
+}
+.ready{
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
