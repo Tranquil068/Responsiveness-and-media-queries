@@ -3,16 +3,30 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    width:1440px;
+}
+@media screen and (max-width:375px){
+    body{
+        width:50%;
+    }
+}
 button{
     padding: 10px;
     border-radius: 30px;
-    border-color: #da52af;
+    border-color: transparent;
 }
 #one{
     border: transparent;
     float: right;
     color:#00252e;
     background-color: white;
+}
+.build{
+    padding-bottom: 20px;
+}
+#build{
+    padding-bottom: 20px;
 }
 #left{
     display: flex;
@@ -35,18 +49,38 @@ button{
     align-items: center;
     gap: 150px;
     padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.grow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .flowing{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 100px;
+}
+.flowing:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .users{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.users:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .body{
     background-color: white;
@@ -62,38 +96,58 @@ button{
 }
 .location{
     display:flex;
+    padding-bottom: 15px;
 }
+#logo{
+    filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(2deg) brightness(999%) contrast(0%);
+    padding-bottom: 10px;
+}
+
 .phone{
     display:flex;
+    padding-bottom: 15px;
 }
 .mail{
     display:flex;
 }
-#logo{
-    fill: white;
-}
 .info{
-    padding-top: 112px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 190px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 80px;
+    line-height: 40px;
 }
 .more{
-    padding-top: 112px;
-    padding-right: 100px;
+    padding-top: 190px;
+    padding-right: 150px;
     padding-bottom: 80px;
+    line-height: 40px;
 }
 .copyright{
-    display:flex;
+    display:flex; 
+    padding-top: 150px;
+}
+.fb{
+    word-spacing: 10px;
 }
 .media{
-    display: flex;
-    gap: 10px;
+    padding-top: 200px;
+    padding-bottom: 70px;
 }
 .details{
     padding-left: 70px;
 }
 .ready{
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    background: transparent;
+    margin-left: 500px;
+}
+#medium{
+    justify-content: center;
+    align-items: center;
 }
