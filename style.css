@@ -15,12 +15,22 @@ button{
     padding: 10px;
     border-radius: 30px;
     border-color: transparent;
+    cursor:pointer;
+}
+
+button:hover{
+    border:2px solid hsl(261, 99%, 42%);
+    color:white;
 }
 #one{
     border: transparent;
     float: right;
     color:#00252e;
     background-color: white;
+}
+#one.hover{
+    border:2px solid hsl(261, 99%, 42%);
+    color:black;
 }
 .build{
     padding-bottom: 20px;
@@ -129,6 +139,13 @@ button{
 }
 .fb{
     word-spacing: 10px;
+}
+#info{
+    cursor: pointer;
+}
+#info:hover{
+    text-decoration: underline;
+    color:pink
 }
 .media{
     padding-top: 200px;
